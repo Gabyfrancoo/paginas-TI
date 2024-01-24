@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes em Alta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <a href="#"><img src="logo.png" style="text-align: left;" alt="Logo"></a>
+    </header>
+
+    <!-- Cabeçalho principal -->
+    <div class="header">
+        <h1>FILMES EM ALTA</h1>
+    </div>
+
+    <!-- Container para filmes -->
+    <div class="movies-container" id="movies-container">
+        <!-- Aqui os filmes serÃ£o inseridos via JavaScript -->
+    </div>
+
+    <!-- Modal para exibir sinopse -->
+    <div class="modal" id="modal">
+        <div class="modal-content" id="modal-content">
+            <!-- BotÃ£o para fechar sinopse -->
+            <span class="close-btn" onclick="closeModal()">Fechar Sinopse</span>
+            <!-- BotÃ£o de favoritos -->
+            <button id="favorite-button" onclick="toggleFavoriteModal()" disabled>Adicionar aos Favoritos</button>
+        </div>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
