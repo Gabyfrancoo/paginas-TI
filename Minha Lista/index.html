@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Lista</title>
+</head>
+<body>
+    <!-- cabecalho -->
+    <header>
+        <a> <img src="logo.png"  style= "text-align: left;" alt ="logo"></img></a>
+    </header>
+    <h1>MINHA LISTA</h1>
+
+    <!-- filtro de generos -->
+    <select id="genre-filter">
+        <option value="all">Todos</option>
+        <option value="Ação">Ação</option>
+        <option value="Drama">Drama</option>
+        <option value="Comédia">Comédia</option>
+        <option value="Suspense">Suspense</option>
+        <option value="Terror">Terror</option>
+        <option value="Romance">Romance</option>
+        <option value="Infantil">Infantil</option>
+    </select>
+
+    <section id="my-list">
+        <!-- A lista de filmes sera renderizada aqui via JavaScript -->
+    </section>
+    
+    <section id="movie-details">
+        <div class="movie-details-content">
+            <img id="image-details" alt="Imagem do filme">
+            <div class="movie-details-info">
+                <div class="movie-details-description">
+                    <h2 id="movie-title"></h2>
+                    <p id="movie-description"></p>
+                    <button id="close-details">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
